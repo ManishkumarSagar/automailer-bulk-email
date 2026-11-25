@@ -1,0 +1,1997 @@
+{
+  "0": {
+    "bull:EmailCampaignQueue:meta": {
+      "type": "hash",
+      "value": {
+        "opts.maxLenEvents": "10000",
+        "version": "bullmq:6.7.8"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:id": {
+      "type": "string",
+      "value": "23",
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0533b929a82af80b57393a-6b05292297952677e9ed3f42": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manish@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"helo!\",\"campaignId\":\"6b0533b929a82af80b57393a\",\"userId\":\"6b0526d397952677e9ed3f3e\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0533b929a82af80b57393a-6b05292297952677e9ed3f42\",\"delay\":0}",
+        "timestamp": "1795503033601",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503033621",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503036582"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:events": {
+      "type": "stream",
+      "value": [
+        {
+          "id": "1795503033617-0",
+          "ms": 1795503033617,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503033619-0",
+          "ms": 1795503033619,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42"
+          ]
+        },
+        {
+          "id": "1795503033625-0",
+          "ms": 1795503033625,
+          "seq": 0,
+          "fields": [
+            "event",
+            "duplicated",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42"
+          ]
+        },
+        {
+          "id": "1795503033627-0",
+          "ms": 1795503033627,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503033627-1",
+          "ms": 1795503033627,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43"
+          ]
+        },
+        {
+          "id": "1795503033632-0",
+          "ms": 1795503033632,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503033633-0",
+          "ms": 1795503033633,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44"
+          ]
+        },
+        {
+          "id": "1795503033637-0",
+          "ms": 1795503033637,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503033637-1",
+          "ms": 1795503033637,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2"
+          ]
+        },
+        {
+          "id": "1795503033640-0",
+          "ms": 1795503033640,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503033641-0",
+          "ms": 1795503033641,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3"
+          ]
+        },
+        {
+          "id": "1795503033644-0",
+          "ms": 1795503033644,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503033705-0",
+          "ms": 1795503033705,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503033751-0",
+          "ms": 1795503033751,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503033757-0",
+          "ms": 1795503033757,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503033762-0",
+          "ms": 1795503033762,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503036551-0",
+          "ms": 1795503036551,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503036551-1",
+          "ms": 1795503036551,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503036578-0",
+          "ms": 1795503036578,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503036578-1",
+          "ms": 1795503036578,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503036590-0",
+          "ms": 1795503036590,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503036590-1",
+          "ms": 1795503036590,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503036600-0",
+          "ms": 1795503036600,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503036600-1",
+          "ms": 1795503036600,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503036607-0",
+          "ms": 1795503036607,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503036607-1",
+          "ms": 1795503036607,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503036609-0",
+          "ms": 1795503036609,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795503971994-0",
+          "ms": 1795503971994,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a29",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503971995-0",
+          "ms": 1795503971995,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a29"
+          ]
+        },
+        {
+          "id": "1795503971999-0",
+          "ms": 1795503971999,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2a",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503971999-1",
+          "ms": 1795503971999,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2a"
+          ]
+        },
+        {
+          "id": "1795503972001-0",
+          "ms": 1795503972001,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2b",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795503972002-0",
+          "ms": 1795503972002,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2b"
+          ]
+        },
+        {
+          "id": "1795503972005-0",
+          "ms": 1795503972005,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a29",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503972033-0",
+          "ms": 1795503972033,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2a",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503972074-0",
+          "ms": 1795503972074,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2b",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795503974875-0",
+          "ms": 1795503974875,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2a",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503974875-1",
+          "ms": 1795503974875,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2a",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503974888-0",
+          "ms": 1795503974888,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2b",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503974888-1",
+          "ms": 1795503974888,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a2b",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503974899-0",
+          "ms": 1795503974899,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a29",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795503974899-1",
+          "ms": 1795503974899,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b05376353397761338708f7-6b05373e32f58ca31b694a29",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795503974901-0",
+          "ms": 1795503974901,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795504616299-0",
+          "ms": 1795504616299,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795504616300-0",
+          "ms": 1795504616300,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae"
+          ]
+        },
+        {
+          "id": "1795504616303-0",
+          "ms": 1795504616303,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795504616304-0",
+          "ms": 1795504616304,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af"
+          ]
+        },
+        {
+          "id": "1795504616306-0",
+          "ms": 1795504616306,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795504616346-0",
+          "ms": 1795504616346,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795504619424-0",
+          "ms": 1795504619424,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795504619424-1",
+          "ms": 1795504619424,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795504619441-0",
+          "ms": 1795504619441,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795504619441-1",
+          "ms": 1795504619441,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795504619442-0",
+          "ms": 1795504619442,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795506024202-0",
+          "ms": 1795506024202,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795506024202-1",
+          "ms": 1795506024202,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4"
+          ]
+        },
+        {
+          "id": "1795506024205-0",
+          "ms": 1795506024205,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795506024206-0",
+          "ms": 1795506024206,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5"
+          ]
+        },
+        {
+          "id": "1795506024208-0",
+          "ms": 1795506024208,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795506024254-0",
+          "ms": 1795506024254,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795506027143-0",
+          "ms": 1795506027143,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795506027144-0",
+          "ms": 1795506027144,
+          "seq": 0,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795506027160-0",
+          "ms": 1795506027160,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5",
+            "failedReason",
+            "Invalid login: 535 5.7.0 Invalid credentials",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795506027161-0",
+          "ms": 1795506027161,
+          "seq": 0,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795506027164-0",
+          "ms": 1795506027164,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795507738019-0",
+          "ms": 1795507738019,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7bd",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795507738020-0",
+          "ms": 1795507738020,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7bd"
+          ]
+        },
+        {
+          "id": "1795507738024-0",
+          "ms": 1795507738024,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7be",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795507738024-1",
+          "ms": 1795507738024,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7be"
+          ]
+        },
+        {
+          "id": "1795507738028-0",
+          "ms": 1795507738028,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7bd",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795507738034-0",
+          "ms": 1795507738034,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7be",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795507741673-0",
+          "ms": 1795507741673,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7be",
+            "failedReason",
+            "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795507741673-1",
+          "ms": 1795507741673,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7be",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795507741900-0",
+          "ms": 1795507741900,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b0546199df613828741c7bf-6b0545f79df613828741c7bd",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795507741905-0",
+          "ms": 1795507741905,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795509382383-0",
+          "ms": 1795509382383,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795509382383-1",
+          "ms": 1795509382383,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c"
+          ]
+        },
+        {
+          "id": "1795509382386-0",
+          "ms": 1795509382386,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795509382386-1",
+          "ms": 1795509382386,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d"
+          ]
+        },
+        {
+          "id": "1795509382405-0",
+          "ms": 1795509382405,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795509383461-0",
+          "ms": 1795509383461,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795509386453-0",
+          "ms": 1795509386453,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795509387083-0",
+          "ms": 1795509387083,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d",
+            "failedReason",
+            "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795509387083-1",
+          "ms": 1795509387083,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795509387085-0",
+          "ms": 1795509387085,
+          "seq": 0,
+          "fields": [
+            "event",
+            "drained"
+          ]
+        },
+        {
+          "id": "1795510547716-0",
+          "ms": 1795510547716,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c75",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510547717-0",
+          "ms": 1795510547717,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c75"
+          ]
+        },
+        {
+          "id": "1795510547720-0",
+          "ms": 1795510547720,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510547720-1",
+          "ms": 1795510547720,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76"
+          ]
+        },
+        {
+          "id": "1795510547723-0",
+          "ms": 1795510547723,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c75",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510551627-0",
+          "ms": 1795510551627,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c75",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795510552741-0",
+          "ms": 1795510552741,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510553437-0",
+          "ms": 1795510553437,
+          "seq": 0,
+          "fields": [
+            "event",
+            "failed",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76",
+            "failedReason",
+            "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795510553437-1",
+          "ms": 1795510553437,
+          "seq": 1,
+          "fields": [
+            "event",
+            "retries-exhausted",
+            "jobId",
+            "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76",
+            "attemptsMade",
+            "1"
+          ]
+        },
+        {
+          "id": "1795510806456-0",
+          "ms": 1795510806456,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510806456-1",
+          "ms": 1795510806456,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9"
+          ]
+        },
+        {
+          "id": "1795510806459-0",
+          "ms": 1795510806459,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042da",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510806459-1",
+          "ms": 1795510806459,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042da"
+          ]
+        },
+        {
+          "id": "1795510806462-0",
+          "ms": 1795510806462,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510812175-0",
+          "ms": 1795510812175,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042da",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510815989-0",
+          "ms": 1795510815989,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042da",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"arifkhan852778@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795510881579-0",
+          "ms": 1795510881579,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795510881579-1",
+          "ms": 1795510881579,
+          "seq": 1,
+          "fields": [
+            "event",
+            "stalled",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9"
+          ]
+        },
+        {
+          "id": "1795510881583-0",
+          "ms": 1795510881583,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510885439-0",
+          "ms": 1795510885439,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795510986219-0",
+          "ms": 1795510986219,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510986219-1",
+          "ms": 1795510986219,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea"
+          ]
+        },
+        {
+          "id": "1795510986223-0",
+          "ms": 1795510986223,
+          "seq": 0,
+          "fields": [
+            "event",
+            "added",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb",
+            "name",
+            "send-email"
+          ]
+        },
+        {
+          "id": "1795510986223-1",
+          "ms": 1795510986223,
+          "seq": 1,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb"
+          ]
+        },
+        {
+          "id": "1795510986227-0",
+          "ms": 1795510986227,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510991932-0",
+          "ms": 1795510991932,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795510996087-0",
+          "ms": 1795510996087,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"arifkhan852778@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795511052225-0",
+          "ms": 1795511052225,
+          "seq": 0,
+          "fields": [
+            "event",
+            "waiting",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+            "prev",
+            "active"
+          ]
+        },
+        {
+          "id": "1795511052225-1",
+          "ms": 1795511052225,
+          "seq": 1,
+          "fields": [
+            "event",
+            "stalled",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea"
+          ]
+        },
+        {
+          "id": "1795511052230-0",
+          "ms": 1795511052230,
+          "seq": 0,
+          "fields": [
+            "event",
+            "active",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+            "prev",
+            "waiting"
+          ]
+        },
+        {
+          "id": "1795511056052-0",
+          "ms": 1795511056052,
+          "seq": 0,
+          "fields": [
+            "event",
+            "completed",
+            "jobId",
+            "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+            "returnvalue",
+            "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+            "prev",
+            "active"
+          ]
+        }
+      ],
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0533b929a82af80b57393a-6b05292297952677e9ed3f43": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arif@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"helo!\",\"campaignId\":\"6b0533b929a82af80b57393a\",\"userId\":\"6b0526d397952677e9ed3f3e\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0533b929a82af80b57393a-6b05292297952677e9ed3f43\",\"delay\":0}",
+        "timestamp": "1795503033602",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503033703",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503036540"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0533b929a82af80b57393a-6b05292297952677e9ed3f44": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"aman@gmail.com\",\"contactName\":\"aman\",\"subject\":\"tcs\",\"body\":\"helo!\",\"campaignId\":\"6b0533b929a82af80b57393a\",\"userId\":\"6b0526d397952677e9ed3f3e\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0533b929a82af80b57393a-6b05292297952677e9ed3f44\",\"delay\":0}",
+        "timestamp": "1795503033602",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503033749",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503036523"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manish@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"helo!\",\"campaignId\":\"6b0533b929a82af80b57393a\",\"userId\":\"6b0526d397952677e9ed3f3e\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2\",\"delay\":0}",
+        "timestamp": "1795503033602",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503033755",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503036533"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arif@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"helo!\",\"campaignId\":\"6b0533b929a82af80b57393a\",\"userId\":\"6b0526d397952677e9ed3f3e\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3\",\"delay\":0}",
+        "timestamp": "1795503033602",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503033760",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503036569"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:failed": {
+      "type": "zset",
+      "value": [
+        {
+          "member": "6b0533b929a82af80b57393a-6b05292297952677e9ed3f44",
+          "score": 1795503036523
+        },
+        {
+          "member": "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb2",
+          "score": 1795503036533
+        },
+        {
+          "member": "6b0533b929a82af80b57393a-6b05292297952677e9ed3f43",
+          "score": 1795503036540
+        },
+        {
+          "member": "6b0533b929a82af80b57393a-6b0531bc77537f34381a1cb3",
+          "score": 1795503036569
+        },
+        {
+          "member": "6b0533b929a82af80b57393a-6b05292297952677e9ed3f42",
+          "score": 1795503036582
+        },
+        {
+          "member": "6b05376353397761338708f7-6b05373e32f58ca31b694a2a",
+          "score": 1795503974859
+        },
+        {
+          "member": "6b05376353397761338708f7-6b05373e32f58ca31b694a2b",
+          "score": 1795503974864
+        },
+        {
+          "member": "6b05376353397761338708f7-6b05373e32f58ca31b694a29",
+          "score": 1795503974875
+        },
+        {
+          "member": "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae",
+          "score": 1795504619411
+        },
+        {
+          "member": "6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af",
+          "score": 1795504619426
+        },
+        {
+          "member": "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4",
+          "score": 1795506027128
+        },
+        {
+          "member": "6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5",
+          "score": 1795506027135
+        },
+        {
+          "member": "6b0546199df613828741c7bf-6b0545f79df613828741c7be",
+          "score": 1795507741656
+        },
+        {
+          "member": "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d",
+          "score": 1795509387060
+        },
+        {
+          "member": "6b0551139265a83916afa846-6b0550e3c7a6742e42191c76",
+          "score": 1795510553401
+        }
+      ],
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b05376353397761338708f7-6b05373e32f58ca31b694a29": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"infosys\",\"body\":\"hello! this is mannu.\",\"campaignId\":\"6b05376353397761338708f7\",\"userId\":\"6b0536f0d8563b0c8e478cc3\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b05376353397761338708f7-6b05373e32f58ca31b694a29\",\"delay\":0}",
+        "timestamp": "1795503971986",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503971996",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503974875"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b05376353397761338708f7-6b05373e32f58ca31b694a2a": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arif@gmail.com\",\"contactName\":\"arif\",\"subject\":\"infosys\",\"body\":\"hello! this is mannu.\",\"campaignId\":\"6b05376353397761338708f7\",\"userId\":\"6b0536f0d8563b0c8e478cc3\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b05376353397761338708f7-6b05373e32f58ca31b694a2a\",\"delay\":0}",
+        "timestamp": "1795503971987",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503972031",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503974859"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b05376353397761338708f7-6b05373e32f58ca31b694a2b": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"aman@gmail.com\",\"contactName\":\"aman\",\"subject\":\"infosys\",\"body\":\"hello! this is mannu.\",\"campaignId\":\"6b05376353397761338708f7\",\"userId\":\"6b0536f0d8563b0c8e478cc3\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b05376353397761338708f7-6b05373e32f58ca31b694a2b\",\"delay\":0}",
+        "timestamp": "1795503971987",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795503972073",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795503974864"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0539e8be7c74dae47192b0\",\"userId\":\"6b0539b857308fc08f8a22d6\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192ae\",\"delay\":0}",
+        "timestamp": "1795504616289",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795504616300",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795504619411"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0539e8be7c74dae47192b0\",\"userId\":\"6b0539b857308fc08f8a22d6\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0539e8be7c74dae47192b0-6b0539c4be7c74dae47192af\",\"delay\":0}",
+        "timestamp": "1795504616290",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795504616343",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795504619426"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b053f688a85743c99f01166\",\"userId\":\"6b053f21ce5ba71361d70dd3\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd4\",\"delay\":0}",
+        "timestamp": "1795506024191",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795506024203",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795506027128"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b053f688a85743c99f01166\",\"userId\":\"6b053f21ce5ba71361d70dd3\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b053f688a85743c99f01166-6b053f2ece5ba71361d70dd5\",\"delay\":0}",
+        "timestamp": "1795506024191",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795506024250",
+        "ats": "1",
+        "failedReason": "Invalid login: 535 5.7.0 Invalid credentials",
+        "stacktrace": "[\"Error: Invalid login: 535 5.7.0 Invalid credentials\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionAUTHComplete (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1813:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:660:26)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795506027135"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0546199df613828741c7bf-6b0545f79df613828741c7bd": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0546199df613828741c7bf\",\"userId\":\"6b0545e428c527f64bd9a6cf\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0546199df613828741c7bf-6b0545f79df613828741c7bd\",\"delay\":0}",
+        "timestamp": "1795507738008",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795507738019",
+        "ats": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+        "finishedOn": "1795507741882"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0546199df613828741c7bf-6b0545f79df613828741c7be": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0546199df613828741c7bf\",\"userId\":\"6b0545e428c527f64bd9a6cf\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0546199df613828741c7bf-6b0545f79df613828741c7be\",\"delay\":0}",
+        "timestamp": "1795507738008",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795507738030",
+        "ats": "1",
+        "failedReason": "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+        "stacktrace": "[\"Error: Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionDATA (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1961:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1360:18)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795507741656"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:completed": {
+      "type": "zset",
+      "value": [
+        {
+          "member": "6b0546199df613828741c7bf-6b0545f79df613828741c7bd",
+          "score": 1795507741882
+        },
+        {
+          "member": "6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c",
+          "score": 1795509386436
+        },
+        {
+          "member": "6b0551139265a83916afa846-6b0550e3c7a6742e42191c75",
+          "score": 1795510551611
+        },
+        {
+          "member": "6b05521615f9d252d22042db-6b0551fe15f9d252d22042da",
+          "score": 1795510815983
+        },
+        {
+          "member": "6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9",
+          "score": 1795510885419
+        },
+        {
+          "member": "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb",
+          "score": 1795510996076
+        },
+        {
+          "member": "6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea",
+          "score": 1795511056030
+        }
+      ],
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! this side manish kr sagar.\",\"campaignId\":\"6b054c86680f2bccc7d4df2d\",\"userId\":\"6b054c55c189704a005f553b\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553c\",\"delay\":0}",
+        "timestamp": "1795509382372",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795509382384",
+        "ats": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+        "finishedOn": "1795509386436"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! this side manish kr sagar.\",\"campaignId\":\"6b054c86680f2bccc7d4df2d\",\"userId\":\"6b054c55c189704a005f553b\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b054c86680f2bccc7d4df2d-6b054c64c189704a005f553d\",\"delay\":0}",
+        "timestamp": "1795509382372",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795509383454",
+        "ats": "1",
+        "failedReason": "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+        "stacktrace": "[\"Error: Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionDATA (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1961:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1360:18)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795509387060"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0551139265a83916afa846-6b0550e3c7a6742e42191c75": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0551139265a83916afa846\",\"userId\":\"6b0550d8c7a6742e42191c74\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0551139265a83916afa846-6b0550e3c7a6742e42191c75\",\"delay\":0}",
+        "timestamp": "1795510547709",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795510547717",
+        "ats": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+        "finishedOn": "1795510551611"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0551139265a83916afa846-6b0550e3c7a6742e42191c76": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! this is manish kr sagar.\",\"campaignId\":\"6b0551139265a83916afa846\",\"userId\":\"6b0550d8c7a6742e42191c74\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0551139265a83916afa846-6b0550e3c7a6742e42191c76\",\"delay\":0}",
+        "timestamp": "1795510547709",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795510552731",
+        "ats": "1",
+        "failedReason": "Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing",
+        "stacktrace": "[\"Error: Data command failed: 550 5.7.0 Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing\\n    at SMTPConnection._formatError (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:972:19)\\n    at SMTPConnection._actionDATA (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1961:34)\\n    at SMTPConnection.<anonymous> (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1360:18)\\n    at SMTPConnection._processResponse (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:1200:20)\\n    at SMTPConnection._onData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:917:14)\\n    at SMTPConnection._onSocketData (C:\\\\Users\\\\Admin\\\\Downloads\\\\automailer-bulk-email-project\\\\backend\\\\node_modules\\\\nodemailer\\\\dist\\\\cjs\\\\smtp-connection\\\\index.js:218:44)\\n    at TLSSocket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\"]",
+        "atm": "1",
+        "finishedOn": "1795510553401"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"tcs\",\"body\":\"hello! world\",\"campaignId\":\"6b05521615f9d252d22042db\",\"userId\":\"6b0551f215f9d252d22042d8\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b05521615f9d252d22042db-6b0551fe15f9d252d22042d9\",\"delay\":0}",
+        "timestamp": "1795510806447",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795510881577",
+        "ats": "2",
+        "stc": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+        "finishedOn": "1795510885419"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b05521615f9d252d22042db-6b0551fe15f9d252d22042da": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"tcs\",\"body\":\"hello! world\",\"campaignId\":\"6b05521615f9d252d22042db\",\"userId\":\"6b0551f215f9d252d22042d8\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b05521615f9d252d22042db-6b0551fe15f9d252d22042da\",\"delay\":0}",
+        "timestamp": "1795510806447",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795510812170",
+        "ats": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"arifkhan852778@gmail.com\"}",
+        "finishedOn": "1795510815983"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"manishngm007@gmail.com\",\"contactName\":\"manish\",\"subject\":\"infosys\",\"body\":\"hello! world\",\"campaignId\":\"6b0552ca41d72deeb7b44eec\",\"userId\":\"6b0552a741d72deeb7b44ee9\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eea\",\"delay\":0}",
+        "timestamp": "1795510986206",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795511052223",
+        "ats": "2",
+        "stc": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"manishngm007@gmail.com\"}",
+        "finishedOn": "1795511056030"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb": {
+      "type": "hash",
+      "value": {
+        "name": "send-email",
+        "data": "{\"email\":\"arifkhan852778@gmail.com\",\"contactName\":\"arif\",\"subject\":\"infosys\",\"body\":\"hello! world\",\"campaignId\":\"6b0552ca41d72deeb7b44eec\",\"userId\":\"6b0552a741d72deeb7b44ee9\"}",
+        "opts": "{\"attempts\":0,\"jobId\":\"6b0552ca41d72deeb7b44eec-6b0552b241d72deeb7b44eeb\",\"delay\":0}",
+        "timestamp": "1795510986206",
+        "delay": "0",
+        "priority": "0",
+        "processedOn": "1795510991925",
+        "ats": "1",
+        "atm": "1",
+        "returnvalue": "{\"status\":\"sent\",\"email\":\"arifkhan852778@gmail.com\"}",
+        "finishedOn": "1795510996076"
+      },
+      "ttl": null
+    },
+    "bull:EmailCampaignQueue:stalled-check": {
+      "type": "string",
+      "value": "1795511382090",
+      "ttl": 3244
+    }
+  }
+}
